@@ -1,0 +1,13 @@
+{
+  "name": "eventhub-monorepo",
+  "version": "1.0.0",
+  "description": "EventHub College Event Discovery & Registration Platform",
+  "scripts": {
+    "start": "node server/server.js",
+    "seed": "node server/seed.js",
+    "test": "node server/test_api.js",
+    "dev:server": "node server/server.js",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  }
+}
